@@ -14,6 +14,9 @@
   font-size: 65px;
   text-align: right;
   letter-spacing: 20px; /* text gap */
+  overflow: hidden;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .calculator_keys {
   display: grid;
@@ -68,14 +71,9 @@ button {
   text-align: left;
 }
 
-input:hover,
-input:active,
-input:focus,
-textarea:hover,
-textarea:active,
-textarea:focus,
-button:hover,
-button:active,
-button:focus {
-  outline: none;
+.key_operator:hover {
+  background-color: rebeccapurple;
+}
+button:hover {
+  background-color: #d1c4e9;
 }
