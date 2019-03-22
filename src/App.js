@@ -10,8 +10,8 @@ class App extends Component {
 
   onClickEvent = e => {
     e.preventDefault();
-    const value = e.target.value; // basılan tuş
-    let result = this.state.result; //ilk baştaki değer  = 0
+    const value = e.target.value; 
+    let result = this.state.result; 
     if (result === "0") {
       result = "";
       this.setState({ result: result + value });
